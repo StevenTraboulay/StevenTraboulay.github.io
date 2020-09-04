@@ -1,52 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-body{
-    background: tan;
-}
-header {
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f5e8c4;
+  }
+  .container {
     padding: 20px 35px;
-    background-color: black;
-}
-
-Header h1{
-    font-weight: bold;
-    font-size: 36px;
-    color: white;
+  }
+  header {
+    padding: 20px 35px;
     margin: 0;
-    display: inline;
-}
-.container{
-
-
-}
-
-.container section{
-    display: inline-block;
-    position: relative;
     text-align: center;
-    padding: 26px 30px;
-}
-
-#main-bio, {
-    float: left;
+    background-color: black;
+    color: #f5e8c4;
+  }
+  #main-bio {
     width: 70%;
-
-}
-
-#main-bio p{
-    width:35%;
-    float: right;
-    display: inline-block
-}
-
-#contact-info{
-    float: right;
+    float: left;
+    }
+  #main-bio img {
+      height: 200px;
+      width: 200px;
+      float: left;
+      margin-right: 20px;
+    }
+  #contact-info {
     width: 30%;
-}
-
-.bio-image{
-    vertical-align: top;
-}
+    float: left;
+  }
+  #main-bio p {
+    text-align: left;
+    float: left;
+    width: 60%;
+    font-size: 26px;
+  }
+  li {
+    padding-left: 10px
+  }
