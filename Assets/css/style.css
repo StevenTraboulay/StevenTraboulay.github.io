@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: tan;
+}
+header {
+    padding: 20px 35px;
+    background-color: black;
+}
+
+Header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    display: inline;
+}
+.container{
+
+
+}
+
+.container section{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 26px 30px;
+}
+
+#main-bio, {
+    float: left;
+    width: 70%;
+
+}
+
+#main-bio p{
+    width:35%;
+    float: right;
+    display: inline-block
+}
+
+#contact-info{
+    float: right;
+    width: 30%;
+}
+
+.bio-image{
+    vertical-align: top;
+}
